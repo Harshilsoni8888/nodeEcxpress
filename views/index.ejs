@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+		<h2>This is from student database</h2>
+
+		<br>
+
+		<% for(var i=0; i < response.length; i++){%> 
+		<%= response[i].name %><br>
+
+		<%= response[i].rollno %><br>
+
+		<%= response[i].dept %><br>
+
+		<% } %>
+</body>
+</html>
+
+<% for(var i=0; i< response.length ; i++){%>
+		
+		<%= response[i].name  %>
+		<%= response[i].roll  %>
+	
+
+<%} %>
